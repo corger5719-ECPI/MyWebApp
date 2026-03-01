@@ -2,7 +2,7 @@
 
 ## Project Description
 
-MyWebApp is a responsive web application created to help users manage information in a simple and organized way. The focus of this project was learning how to structure a web application using the MVC (Model-View-Controller) pattern while keeping the interface clean and easy to use.
+MyWebApp is a responsive web application created to help manage information in a simple and organized way. The focus of this project was learning how to structure a web application using the MVC (Model-View-Controller) pattern while keeping the interface clean and easy to use.
 
 The application supports core data operations such as adding, updating, and displaying records, and it demonstrates how the frontend, backend, and database work together in a structured PHP environment.
 
