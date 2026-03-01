@@ -1,4 +1,4 @@
-# Project Name: Final Exam Project (MyWebApp)
+# Project Name: MyWebapp - Final Exam Project 
 
 ## Project Description
 
@@ -83,7 +83,7 @@ The application supports core data operations such as adding, updating, and disp
 * **HTML, CSS** — user interface
 * **PHP** — server-side logic
 * **MySQL** — database
-* **Apache/XAMPP or VCASTLE** — local server
+* **Apache/XAMPP and VCASTLE** — local server
 * **Git & GitHub** — version control
 
 ---
@@ -105,10 +105,4 @@ The application supports core data operations such as adding, updating, and disp
 
 ## Link to Project
 
-[MyWebApp Repository](https://github.com/username/mywebapp)
 
----
-
-## License
-
-This project is licensed under the GNU License — see the LICENSE file for details.
