@@ -1,8 +1,23 @@
+
 <?php
-// includes/products_data.php
-function getProducts(): array {
+function get_all_products(): array {
     return [
-        'NH001' => [
+        "1" => ["name" => "Item 1", "price"=> 11.99],
+        "2" => ["name" => "Item 2", "price" => 12.49],
+        "3" => ["name" => "Item 3", "price" => 10.99],
+        "4" => ["name" => "Item 4", "price" => 13.99],
+        "5" => ["name" => "Item 5", "price" => 9.99],
+    ];
+    
+}
+
+
+
+// includes/products_data.php
+
+function getProducts(): array  {
+   return [
+           'NH001' => [
             'name' => 'Moisturizing Shampoo',
             'description' => 'Gentle, sulfate-free shampoo for natural hair',
             'price' => 11.99
@@ -29,3 +44,4 @@ function getProducts(): array {
         ],
     ];
 }
+    
