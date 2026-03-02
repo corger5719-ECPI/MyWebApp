@@ -1,16 +1,13 @@
 <?php
+session_start();
+
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
-require_once __DIR__ . '/../model/products_db.php';
+require_once __DIR__ . '/../includes/products_data.php';
 
-    $result = get_all_products();
-    $products = [];
+$products = getProducts();
 
-   while ($row = mysqli_fetch_assoc($result)) {
-    $products[] = $row;
-
-    }
-   //Load the view (view should loop through $products)
-require __DIR__ . '/../view/display_products.php';
+//Load the view
+require __DIR__ . '/../view/catalog.php';
 
